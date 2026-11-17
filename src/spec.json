@@ -1,0 +1,209 @@
+{
+  "title": "Gestione delle richieste di manutenzione del verde pubblico",
+  "description": "Prototipo per registrare e seguire le richieste di manutenzione, con priorità e quartiere. Tutti i nomi e i dati sono inventati.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica delle richieste e delle attività di manutenzione.",
+      "metrics": [
+        {
+          "label": "Richieste aperte",
+          "value": "18"
+        },
+        {
+          "label": "Priorità alta",
+          "value": "4"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "7"
+        },
+        {
+          "label": "Completate questo mese",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Stato",
+        "Priorità",
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Data richiesta"
+      ],
+      "rows": [
+        [
+          "Aperta",
+          "Alta",
+          "Nubi",
+          "Giardino delle Lanterne",
+          "Potatura alberi",
+          "12/05/2025"
+        ],
+        [
+          "In lavorazione",
+          "Media",
+          "Vela",
+          "Parco delle Maree",
+          "Riparazione irrigazione",
+          "11/05/2025"
+        ],
+        [
+          "Aperta",
+          "Bassa",
+          "Lumo",
+          "Viale dei Salici",
+          "Raccolta rami",
+          "10/05/2025"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "richieste",
+      "title": "Richieste",
+      "description": "Consulta e filtra le segnalazioni per stato, priorità e quartiere.",
+      "metrics": [
+        {
+          "label": "Totale richieste",
+          "value": "42"
+        },
+        {
+          "label": "Aperte",
+          "value": "18"
+        }
+      ],
+      "columns": [
+        "Codice",
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ],
+      "rows": [
+        [
+          "RV-0291",
+          "Nubi",
+          "Giardino delle Lanterne",
+          "Potatura alberi",
+          "Alta",
+          "Aperta",
+          "12/05/2025"
+        ],
+        [
+          "RV-0287",
+          "Vela",
+          "Parco delle Maree",
+          "Riparazione irrigazione",
+          "Media",
+          "In lavorazione",
+          "11/05/2025"
+        ],
+        [
+          "RV-0282",
+          "Lumo",
+          "Viale dei Salici",
+          "Raccolta rami",
+          "Bassa",
+          "Aperta",
+          "10/05/2025"
+        ],
+        [
+          "RV-0276",
+          "Nubi",
+          "Boschetto dei Sussurri",
+          "Ripristino sentiero",
+          "Media",
+          "Completata",
+          "08/05/2025"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-richiesta",
+      "title": "Nuova richiesta",
+      "description": "Registra una richiesta di manutenzione del verde pubblico.",
+      "metrics": [],
+      "columns": [
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ],
+      "rows": [],
+      "form": [
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ]
+    },
+    {
+      "id": "interventi",
+      "title": "Interventi",
+      "description": "Monitora gli interventi assegnati e il loro avanzamento.",
+      "metrics": [
+        {
+          "label": "Da pianificare",
+          "value": "6"
+        },
+        {
+          "label": "In corso",
+          "value": "7"
+        },
+        {
+          "label": "Conclusi",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Codice",
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data prevista"
+      ],
+      "rows": [
+        [
+          "RV-0291",
+          "Nubi",
+          "Giardino delle Lanterne",
+          "Potatura alberi",
+          "Alta",
+          "Da pianificare",
+          "15/05/2025"
+        ],
+        [
+          "RV-0287",
+          "Vela",
+          "Parco delle Maree",
+          "Riparazione irrigazione",
+          "Media",
+          "In corso",
+          "14/05/2025"
+        ],
+        [
+          "RV-0276",
+          "Nubi",
+          "Boschetto dei Sussurri",
+          "Ripristino sentiero",
+          "Media",
+          "Concluso",
+          "09/05/2025"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
